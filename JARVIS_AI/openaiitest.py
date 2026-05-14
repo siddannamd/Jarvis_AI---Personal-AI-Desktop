@@ -1,6 +1,6 @@
 # This code is for v1 of the openai package: pypi.org/project/openai
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 response = openai.Completion.create(
   model="text-davinci-003",
