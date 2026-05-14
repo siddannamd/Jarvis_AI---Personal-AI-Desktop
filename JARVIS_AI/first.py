@@ -25,7 +25,7 @@ def chat(query):
     return response["choices"][0]["text"]
 
 def ai(prompt):
-    openai.api_key = "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"
+    openai.api_key = ""
     text = f"Openai response for prompt: {prompt}\n********************************\n\n"
 
     response = openai.Completion.create(
