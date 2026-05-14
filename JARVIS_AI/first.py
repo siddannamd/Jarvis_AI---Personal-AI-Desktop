@@ -10,7 +10,7 @@ chatStr = ""
 def chat(query):
     global chatStr
     print(chatStr)
-    openai.api_key = "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"
+    openai.api_key = ""
     chatStr += f"Siddu: {query}\nJarvis:"
     response = openai.Completion.create(
         model="text-davinci-003",
